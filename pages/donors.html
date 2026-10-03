@@ -1,0 +1,19 @@
+<!-- Donors page layout. Content comes from data/donors.json (tiers only, never amounts) -->
+<div class="page-header">
+    <div class="container">
+        <h1 data-i18n="page.donors"></h1>
+    </div>
+</div>
+
+<div class="container section">
+    <h2 class="section-title" data-i18n="donors.thanks"></h2>
+    <p class="lead" data-i18n="donors.intro"></p>
+    <p><a class="btn btn-gold" data-site-href="donateUrl" target="_blank" rel="noopener"><span data-i18n="btn.donate"></span></a></p>
+
+    <div class="field donor-search">
+        <label for="donor-search" data-i18n="donors.search"></label>
+        <input type="search" id="donor-search" autocomplete="off">
+    </div>
+    <p id="donor-status" class="visually-hidden" aria-live="polite"></p>
+    <div id="donors-body" aria-busy="true"></div>
+</div>

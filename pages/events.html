@@ -1,0 +1,37 @@
+<!-- Events page layout. Content comes from data/events.json and data/promotions.json -->
+<div class="page-header">
+    <div class="container">
+        <h1 data-i18n="page.events"></h1>
+    </div>
+</div>
+
+<div class="container section">
+    <div id="events-notice"></div>
+
+    <div class="events-toolbar">
+        <div class="tabs" role="tablist" data-i18n-aria-label="events.viewsLabel">
+            <button type="button" role="tab" id="tab-timeline" data-view="timeline" aria-controls="events-panel" aria-selected="true" data-i18n="events.view.timeline"></button>
+            <button type="button" role="tab" id="tab-calendar" data-view="calendar" aria-controls="events-panel" aria-selected="false" tabindex="-1" data-i18n="events.view.calendar"></button>
+            <button type="button" role="tab" id="tab-list" data-view="list" aria-controls="events-panel" aria-selected="false" tabindex="-1" data-i18n="events.view.list"></button>
+        </div>
+        <div class="field field-inline">
+            <label for="events-filter" data-i18n="events.filterLabel"></label>
+            <select id="events-filter">
+                <option value="all" data-i18n="events.filter.all"></option>
+                <option value="main" data-i18n="events.filter.main"></option>
+                <option value="community" data-i18n="events.filter.community"></option>
+                <option value="ongoing" data-i18n="events.filter.ongoing"></option>
+            </select>
+        </div>
+    </div>
+
+    <div id="events-panel" role="tabpanel" aria-labelledby="tab-timeline" aria-busy="true"></div>
+    <div id="events-past"></div>
+</div>
+
+<section class="section section-alt" id="promotions" aria-labelledby="promotions-title">
+    <div class="container">
+        <h2 id="promotions-title" class="section-title" data-i18n="events.promotions"></h2>
+        <div id="promotions-body" class="card-grid card-grid-3"></div>
+    </div>
+</section>

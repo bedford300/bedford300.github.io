@@ -1,0 +1,101 @@
+{
+  "_help": "Languages in the header's language menu. code = language code (also the folder name in data/i18n/ and the strings file data/strings.<code>.json); name = the language's name written in that language; short = the short label on the header button; locale = used for dates and numbers; overlays = which data files have a translated version in data/i18n/<code>/ (anything not listed, or not translated inside a file, is shown in English). To translate more content, e.g. events: copy events.json into data/i18n/es/, keep only the id + translated fields, and add \"events.json\" to that language's overlays list.",
+  "default": "en",
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "short": "EN",
+      "locale": "en-US",
+      "overlays": []
+    },
+    {
+      "code": "es",
+      "name": "Español",
+      "short": "ES",
+      "locale": "es-US",
+      "overlays": [
+        "site.json",
+        "events.json",
+        "promotions.json"
+      ]
+    },
+    {
+      "code": "fr",
+      "name": "Français",
+      "short": "FR",
+      "locale": "fr-FR",
+      "overlays": [
+        "site.json",
+        "events.json",
+        "promotions.json"
+      ]
+    },
+    {
+      "code": "it",
+      "name": "Italiano",
+      "short": "IT",
+      "locale": "it-IT",
+      "overlays": [
+        "site.json",
+        "events.json",
+        "promotions.json"
+      ]
+    },
+    {
+      "code": "pt",
+      "name": "Português",
+      "short": "PT",
+      "locale": "pt-BR",
+      "overlays": [
+        "site.json",
+        "events.json",
+        "promotions.json"
+      ]
+    },
+    {
+      "code": "zh-CN",
+      "name": "简体中文",
+      "short": "简中",
+      "locale": "zh-CN",
+      "overlays": [
+        "site.json",
+        "events.json",
+        "promotions.json"
+      ]
+    },
+    {
+      "code": "zh-TW",
+      "name": "繁體中文",
+      "short": "繁中",
+      "locale": "zh-TW",
+      "overlays": [
+        "site.json",
+        "events.json",
+        "promotions.json"
+      ]
+    },
+    {
+      "code": "ja",
+      "name": "日本語",
+      "short": "日本",
+      "locale": "ja-JP",
+      "overlays": [
+        "site.json",
+        "events.json",
+        "promotions.json"
+      ]
+    },
+    {
+      "code": "ko",
+      "name": "한국어",
+      "short": "한국",
+      "locale": "ko-KR",
+      "overlays": [
+        "site.json",
+        "events.json",
+        "promotions.json"
+      ]
+    }
+  ]
+}

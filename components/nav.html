@@ -1,0 +1,38 @@
+<!-- Header + main navigation. Menu labels come from data/strings.en.json -->
+<div class="header-inner container">
+    <a class="brand" href="#home" data-route="home">
+        <img class="brand-logo" src="assets/images/Bedford-Tricentennial-Logo-top.webp" alt="" width="342" height="323">
+        <span class="brand-text">
+            <span class="brand-name" data-site="orgName"></span>
+            <span class="brand-sub">Bedford, MA · 1729–2029</span>
+        </span>
+    </a>
+
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span data-i18n="nav.menu"></span>
+    </button>
+
+    <nav id="primary-nav" class="primary-nav" data-i18n-aria-label="nav.main">
+        <ul class="nav-links">
+            <li><a href="#home" data-route="home" data-i18n="nav.home"></a></li>
+            <li><a href="#events" data-route="events" data-i18n="nav.events"></a></li>
+            <li><a href="#history" data-route="history" data-i18n="nav.history"></a></li>
+            <li><a href="#gallery" data-route="gallery" data-i18n="nav.gallery"></a></li>
+            <li><a href="#support" data-route="support" data-i18n="nav.support"></a></li>
+            <li><a href="#donors" data-route="donors" data-i18n="nav.donors"></a></li>
+            <li><a href="#legal" data-route="legal" data-i18n="nav.legal"></a></li>
+        </ul>
+        <div class="header-actions">
+            <div class="text-size" role="group" data-i18n-aria-label="textSize.label">
+                <button type="button" data-text-size="normal" data-i18n-aria-label="textSize.normal" aria-pressed="true">A</button>
+                <button type="button" data-text-size="large" data-i18n-aria-label="textSize.large" aria-pressed="false">A+</button>
+                <button type="button" data-text-size="xlarge" data-i18n-aria-label="textSize.xlarge" aria-pressed="false">A++</button>
+            </div>
+            <a class="btn btn-donate" data-site-href="donateUrl" target="_blank" rel="noopener"><span data-i18n="btn.donate"></span></a>
+        </div>
+    </nav>
+
+    <!-- Language menu (top-right corner): built by main.js from data/i18n/languages.json -->
+    <div class="lang-menu" id="lang-menu"></div>
+</div>

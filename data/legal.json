@@ -1,0 +1,40 @@
+{
+  "_help": "Official documents listed on the Legal page. Upload the PDF to assets/legal/ (use simple file names with no spaces), then put its path in 'file' and set available to true. While available is false, the document shows as 'Coming soon'. Dates use YYYY-MM-DD.",
+  "documents": [
+    {
+      "title": "Articles of Organization",
+      "description": "The organization's founding document filed with the Commonwealth of Massachusetts.",
+      "date": "",
+      "file": "assets/legal/articles-of-organization.pdf",
+      "available": false
+    },
+    {
+      "title": "IRS 501(c)(3) Determination Letter",
+      "description": "Confirms our federal tax-exempt status.",
+      "date": "",
+      "file": "assets/legal/irs-determination-letter.pdf",
+      "available": false
+    },
+    {
+      "title": "Bylaws",
+      "description": "The rules that govern how the organization is run.",
+      "date": "",
+      "file": "assets/legal/bylaws.pdf",
+      "available": false
+    },
+    {
+      "title": "Annual Report / Form 990",
+      "description": "Yearly financial and activity report.",
+      "date": "",
+      "file": "assets/legal/annual-report.pdf",
+      "available": false
+    },
+    {
+      "title": "Privacy Policy",
+      "description": "How we handle information collected through this website and our forms.",
+      "date": "",
+      "file": "assets/legal/privacy-policy.pdf",
+      "available": false
+    }
+  ]
+}

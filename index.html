@@ -1,1 +1,74 @@
-Hello Kangbin
+<!DOCTYPE html>
+<html lang="en" data-text-size="normal">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bedford 300 · Friends of Tricentennial</title>
+    <meta name="description" content="Friends of Tricentennial celebrates the 300th anniversary of Bedford, Massachusetts (1729–2029) with free community events, local history, volunteer opportunities, and a lasting Town Gift.">
+    <meta name="theme-color" content="#1f2d4a">
+    <meta property="og:title" content="Bedford 300 · Friends of Tricentennial">
+    <meta property="og:description" content="Celebrate 300 years of Bedford, Massachusetts: events, history, and ways to get involved.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/optimized/site/og-image-800.jpg">
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+    <link rel="preload" href="assets/images/Bedford-Tricentennial-Logo-top.webp" as="image" type="image/webp">
+
+    <!-- Fonts are self-hosted. Only the body font is preloaded. -->
+    <link rel="preload" href="assets/fonts/source-sans-3-latin.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Core data used by every page: start downloading right away. -->
+    <link rel="preload" href="data/i18n/languages.json" as="fetch" crossorigin>
+    <link rel="preload" href="data/site.json" as="fetch" crossorigin>
+    <link rel="preload" href="data/strings.en.json" as="fetch" crossorigin>
+    <link rel="preload" href="data/image-manifest.json" as="fetch" crossorigin>
+
+    <script>
+        // Preload the Home hero photo (the largest thing on the first screen) only when
+        // the visitor lands on the Home page. To change the hero photo, replace
+        // assets/images/originals/site/hero.jpg with a new photo of the SAME name.
+        (function () {
+            var h = location.hash.replace('#', '');
+            if (h && h !== 'home') return;
+            var b = 'assets/images/optimized/site/hero-';
+            var l = document.createElement('link');
+            l.rel = 'preload';
+            l.as = 'image';
+            l.setAttribute('imagesrcset', b + '400.webp 400w, ' + b + '800.webp 800w, ' + b + '1600.webp 1600w');
+            l.setAttribute('imagesizes', '100vw');
+            l.setAttribute('fetchpriority', 'high');
+            document.head.appendChild(l);
+        })();
+    </script>
+
+    <!--
+        VERSION: after changing any CSS or JS file, change "v=..." on BOTH lines below
+        to a new value (e.g. today's date). This makes visitors' browsers load the new files.
+        All other code and page files pick the version up from main.js automatically.
+    -->
+    <link rel="stylesheet" href="assets/css/style.css?v=2026.10.07e">
+    <script type="module" src="assets/js/main.js?v=2026.10.07e"></script>
+
+    <!-- Analytics: paste your analytics snippet here when ready (currently out of scope). -->
+</head>
+<body>
+    <a class="skip-link" href="#content-viewport" data-i18n="skipLink">Skip to main content</a>
+
+    <header id="navbar-container" class="site-header"></header>
+
+    <main id="content-viewport" tabindex="-1">
+        <p class="page-loading" role="status">Loading…</p>
+    </main>
+
+    <footer id="footer-container" class="site-footer"></footer>
+
+    <!-- Floating "back to top" button: shown by main.js after scrolling down -->
+    <button type="button" class="back-to-top" id="back-to-top" data-i18n-aria-label="backToTop" aria-label="Back to top" hidden>
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5l-7 7m7-7l7 7M12 5v14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+
+    <noscript>
+        <p class="noscript">This website needs JavaScript turned on. You can still reach us by email using the address in our social media profiles.</p>
+    </noscript>
+</body>
+</html>

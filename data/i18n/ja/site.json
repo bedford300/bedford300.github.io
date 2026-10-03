@@ -1,0 +1,11 @@
+{
+  "_help": "Translation of selected text from data/site.json. Only the fields listed here are translated; everything else is shown in English. Keep the structure (and any \"id\") the same as the English file.",
+  "tagline": "マサチューセッツ州ベッドフォード 300周年 · 1729–2029",
+  "mission": "Friends of Tricentennialは、ボランティアが運営する501(c)(3)の非営利団体です。無料の地域イベント、郷土の歴史、そして町への記念の贈り物を通じて、住民の皆さまとともにベッドフォードの300周年を祝います。",
+  "celebrationLabel": "ベッドフォード・デー2029：300周年記念祭（日程 PLACEHOLDER）",
+  "heroFlag": {
+    "imageAlt": "ベッドフォードの旗：深紅の旗に、雲の中から伸びる鎧の腕が剣を握る姿と、ラテン語の標語 Vince aut Morire が記された金色のリボンが描かれています",
+    "caption": "ベッドフォードの旗（1775年）",
+    "linkLabel": "旗の物語を読む"
+  }
+}

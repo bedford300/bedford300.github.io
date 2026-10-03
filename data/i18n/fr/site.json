@@ -1,0 +1,11 @@
+{
+  "_help": "Translation of selected text from data/site.json. Only the fields listed here are translated; everything else is shown in English. Keep the structure (and any \"id\") the same as the English file.",
+  "tagline": "Célébrons les 300 ans de Bedford, Massachusetts · 1729–2029",
+  "mission": "Friends of Tricentennial est un organisme à but non lucratif 501(c)(3) animé par des bénévoles, qui rassemble les habitants pour célébrer le 300e anniversaire de Bedford grâce à des événements communautaires gratuits, à l’histoire locale et à un cadeau durable pour la ville.",
+  "celebrationLabel": "Bedford Day 2029 : la célébration du tricentenaire (date PLACEHOLDER)",
+  "heroFlag": {
+    "imageAlt": "Le drapeau de Bedford : une bannière cramoisie montrant un bras en armure sortant d’un nuage et tenant une épée, avec un ruban doré portant la devise latine Vince aut Morire",
+    "caption": "Le drapeau de Bedford, 1775",
+    "linkLabel": "Découvrir son histoire"
+  }
+}

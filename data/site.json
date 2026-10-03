@@ -1,0 +1,51 @@
+{
+  "_help": "General information used on every page: organization name, contact details, and the web links behind the Donate / Volunteer / Poll buttons. Change only the text to the RIGHT of each colon, and keep the quotation marks. Anything containing PLACEHOLDER still needs a real value. heroFlag = the framed Bedford Flag shown in the Home page banner (delete this block to hide it).",
+  "orgName": "Friends of Tricentennial",
+  "shortName": "Bedford 300",
+  "tagline": "Celebrating 300 years of Bedford, Massachusetts · 1729–2029",
+  "mission": "Friends of Tricentennial is a volunteer-run 501(c)(3) nonprofit bringing neighbors together to celebrate Bedford's 300th anniversary through free community events, local history, and a lasting gift to the town.",
+  "siteUrl": "https://PLACEHOLDER.github.io/",
+  "celebrationDate": "2029-09-22T10:00",
+  "celebrationLabel": "Bedford Day 2029 – the Tricentennial celebration (PLACEHOLDER date)",
+  "contactEmail": "PLACEHOLDER@example.org",
+  "mailingAddress": "PLACEHOLDER mailing address, Bedford, MA 01730",
+  "ein": "PLACEHOLDER-EIN",
+  "donateUrl": "https://example.org/PLACEHOLDER-donate",
+  "townGiftDonateUrl": "https://example.org/PLACEHOLDER-donate-town-gift",
+  "volunteerFormUrl": "https://example.org/PLACEHOLDER-volunteer-form",
+  "sponsorFormUrl": "https://example.org/PLACEHOLDER-sponsor-form",
+  "pollFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfw8uDGbeNQwjLncArHz5FYBXotToQoFNSOLYv3v9AO9Kd13g/viewform?embedded=true",
+  "merchUrl": "https://example.org/PLACEHOLDER-merch",
+  "heroImage": "assets/images/originals/site/hero.jpg",
+  "heroImageAlt": "PLACEHOLDER: Bedford town common decorated for the Tricentennial",
+  "heroFlag": {
+    "image": "assets/images/originals/history/bedford-flag.png",
+    "imageAlt": "The Bedford Flag: a crimson banner showing an armored arm reaching out of a cloud and gripping a sword, with a gold ribbon bearing the Latin motto Vince aut Morire",
+    "caption": "The Bedford Flag, 1775",
+    "linkLabel": "Read its story",
+    "link": "#history/bedford-flag"
+  },
+  "showDraftBadges": true,
+  "social": [
+    {
+      "name": "Instagram",
+      "icon": "instagram",
+      "url": "https://www.instagram.com/PLACEHOLDER"
+    },
+    {
+      "name": "Facebook",
+      "icon": "facebook",
+      "url": "https://www.facebook.com/PLACEHOLDER"
+    },
+    {
+      "name": "X",
+      "icon": "x",
+      "url": "https://x.com/PLACEHOLDER"
+    },
+    {
+      "name": "TikTok",
+      "icon": "tiktok",
+      "url": "https://www.tiktok.com/@PLACEHOLDER"
+    }
+  ]
+}

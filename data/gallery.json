@@ -1,0 +1,755 @@
+{
+  "_help": "Photo albums and YouTube videos for the 'Photos & Videos' page. To add an album, copy one { ... } block inside \"albums\" and change it. Upload photos to assets/images/originals/<album-folder>/ and put that path in \"src\". Every photo needs \"alt\" text (a short description for people who can't see it). For videos, paste ANY YouTube link into \"url\". \"featuredVideo\" is shown on the Home page. THIS FILE CURRENTLY CONTAINS TEST DATA - replace before launch.",
+  "_test": true,
+  "featuredVideo": {
+    "url": "https://www.youtube.com/watch?v=PLACEHOLD01",
+    "title": "TEST video 1: Tricentennial Kickoff highlights"
+  },
+  "albums": [
+    {
+      "id": "kickoff-2028",
+      "title": "Tricentennial Kickoff (TEST)",
+      "date": "2028-09-23",
+      "event": "kickoff",
+      "cover": "assets/images/originals/test-gallery/kickoff-2028/photo-01.jpg",
+      "coverAlt": "TEST placeholder photo 1 from Tricentennial Kickoff",
+      "description": "TEST album with placeholder photos. Replace before launch.",
+      "photos": [
+        {
+          "src": "assets/images/originals/test-gallery/kickoff-2028/photo-01.jpg",
+          "alt": "TEST placeholder photo 1 from Tricentennial Kickoff",
+          "caption": "Sample caption for photo 1",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/kickoff-2028/photo-02.jpg",
+          "alt": "TEST placeholder photo 2 from Tricentennial Kickoff",
+          "caption": "Sample caption for photo 2",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/kickoff-2028/photo-03.jpg",
+          "alt": "TEST placeholder photo 3 from Tricentennial Kickoff",
+          "caption": "Sample caption for photo 3",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/kickoff-2028/photo-04.jpg",
+          "alt": "TEST placeholder photo 4 from Tricentennial Kickoff",
+          "caption": "Sample caption for photo 4",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/kickoff-2028/photo-05.jpg",
+          "alt": "TEST placeholder photo 5 from Tricentennial Kickoff",
+          "caption": "Sample caption for photo 5",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/kickoff-2028/photo-06.jpg",
+          "alt": "TEST placeholder photo 6 from Tricentennial Kickoff",
+          "caption": "Sample caption for photo 6",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/kickoff-2028/photo-07.jpg",
+          "alt": "TEST placeholder photo 7 from Tricentennial Kickoff",
+          "caption": "Sample caption for photo 7",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/kickoff-2028/photo-08.jpg",
+          "alt": "TEST placeholder photo 8 from Tricentennial Kickoff",
+          "caption": "Sample caption for photo 8",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/kickoff-2028/photo-09.jpg",
+          "alt": "TEST placeholder photo 9 from Tricentennial Kickoff",
+          "caption": "Sample caption for photo 9",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/kickoff-2028/photo-10.jpg",
+          "alt": "TEST placeholder photo 10 from Tricentennial Kickoff",
+          "caption": "Sample caption for photo 10",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/kickoff-2028/photo-11.jpg",
+          "alt": "TEST placeholder photo 11 from Tricentennial Kickoff",
+          "caption": "Sample caption for photo 11",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/kickoff-2028/photo-12.jpg",
+          "alt": "TEST placeholder photo 12 from Tricentennial Kickoff",
+          "caption": "Sample caption for photo 12",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/kickoff-2028/photo-13.jpg",
+          "alt": "TEST placeholder photo 13 from Tricentennial Kickoff",
+          "caption": "Sample caption for photo 13",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/kickoff-2028/photo-14.jpg",
+          "alt": "TEST placeholder photo 14 from Tricentennial Kickoff",
+          "caption": "Sample caption for photo 14",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/kickoff-2028/photo-15.jpg",
+          "alt": "TEST placeholder photo 15 from Tricentennial Kickoff",
+          "caption": "Sample caption for photo 15",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/kickoff-2028/photo-16.jpg",
+          "alt": "TEST placeholder photo 16 from Tricentennial Kickoff",
+          "caption": "Sample caption for photo 16",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/kickoff-2028/photo-17.jpg",
+          "alt": "TEST placeholder photo 17 from Tricentennial Kickoff",
+          "caption": "Sample caption for photo 17",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/kickoff-2028/photo-18.jpg",
+          "alt": "TEST placeholder photo 18 from Tricentennial Kickoff",
+          "caption": "Sample caption for photo 18",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/kickoff-2028/photo-19.jpg",
+          "alt": "TEST placeholder photo 19 from Tricentennial Kickoff",
+          "caption": "Sample caption for photo 19",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/kickoff-2028/photo-20.jpg",
+          "alt": "TEST placeholder photo 20 from Tricentennial Kickoff",
+          "caption": "Sample caption for photo 20",
+          "credit": "Test data"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=PLACEHOLD01",
+          "title": "TEST video 1: Tricentennial Kickoff highlights"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PLACEHOLD02",
+          "title": "TEST video 2: Tricentennial Kickoff highlights"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PLACEHOLD03",
+          "title": "TEST video 3: Tricentennial Kickoff highlights"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PLACEHOLD04",
+          "title": "TEST video 4: Tricentennial Kickoff highlights"
+        }
+      ]
+    },
+    {
+      "id": "porchfest-2029",
+      "title": "PorchFest (TEST)",
+      "date": "2029-06-08",
+      "event": "porchfest",
+      "cover": "assets/images/originals/test-gallery/porchfest-2029/photo-01.jpg",
+      "coverAlt": "TEST placeholder photo 1 from PorchFest",
+      "description": "TEST album with placeholder photos. Replace before launch.",
+      "photos": [
+        {
+          "src": "assets/images/originals/test-gallery/porchfest-2029/photo-01.jpg",
+          "alt": "TEST placeholder photo 1 from PorchFest",
+          "caption": "Sample caption for photo 1",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/porchfest-2029/photo-02.jpg",
+          "alt": "TEST placeholder photo 2 from PorchFest",
+          "caption": "Sample caption for photo 2",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/porchfest-2029/photo-03.jpg",
+          "alt": "TEST placeholder photo 3 from PorchFest",
+          "caption": "Sample caption for photo 3",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/porchfest-2029/photo-04.jpg",
+          "alt": "TEST placeholder photo 4 from PorchFest",
+          "caption": "Sample caption for photo 4",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/porchfest-2029/photo-05.jpg",
+          "alt": "TEST placeholder photo 5 from PorchFest",
+          "caption": "Sample caption for photo 5",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/porchfest-2029/photo-06.jpg",
+          "alt": "TEST placeholder photo 6 from PorchFest",
+          "caption": "Sample caption for photo 6",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/porchfest-2029/photo-07.jpg",
+          "alt": "TEST placeholder photo 7 from PorchFest",
+          "caption": "Sample caption for photo 7",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/porchfest-2029/photo-08.jpg",
+          "alt": "TEST placeholder photo 8 from PorchFest",
+          "caption": "Sample caption for photo 8",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/porchfest-2029/photo-09.jpg",
+          "alt": "TEST placeholder photo 9 from PorchFest",
+          "caption": "Sample caption for photo 9",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/porchfest-2029/photo-10.jpg",
+          "alt": "TEST placeholder photo 10 from PorchFest",
+          "caption": "Sample caption for photo 10",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/porchfest-2029/photo-11.jpg",
+          "alt": "TEST placeholder photo 11 from PorchFest",
+          "caption": "Sample caption for photo 11",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/porchfest-2029/photo-12.jpg",
+          "alt": "TEST placeholder photo 12 from PorchFest",
+          "caption": "Sample caption for photo 12",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/porchfest-2029/photo-13.jpg",
+          "alt": "TEST placeholder photo 13 from PorchFest",
+          "caption": "Sample caption for photo 13",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/porchfest-2029/photo-14.jpg",
+          "alt": "TEST placeholder photo 14 from PorchFest",
+          "caption": "Sample caption for photo 14",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/porchfest-2029/photo-15.jpg",
+          "alt": "TEST placeholder photo 15 from PorchFest",
+          "caption": "Sample caption for photo 15",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/porchfest-2029/photo-16.jpg",
+          "alt": "TEST placeholder photo 16 from PorchFest",
+          "caption": "Sample caption for photo 16",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/porchfest-2029/photo-17.jpg",
+          "alt": "TEST placeholder photo 17 from PorchFest",
+          "caption": "Sample caption for photo 17",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/porchfest-2029/photo-18.jpg",
+          "alt": "TEST placeholder photo 18 from PorchFest",
+          "caption": "Sample caption for photo 18",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/porchfest-2029/photo-19.jpg",
+          "alt": "TEST placeholder photo 19 from PorchFest",
+          "caption": "Sample caption for photo 19",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/porchfest-2029/photo-20.jpg",
+          "alt": "TEST placeholder photo 20 from PorchFest",
+          "caption": "Sample caption for photo 20",
+          "credit": "Test data"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=PLACEHOLD05",
+          "title": "TEST video 5: PorchFest highlights"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PLACEHOLD06",
+          "title": "TEST video 6: PorchFest highlights"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PLACEHOLD07",
+          "title": "TEST video 7: PorchFest highlights"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PLACEHOLD08",
+          "title": "TEST video 8: PorchFest highlights"
+        }
+      ]
+    },
+    {
+      "id": "history-walk",
+      "title": "Historic Sites Walk (TEST)",
+      "date": "2028-10-14",
+      "event": "history-walk",
+      "cover": "assets/images/originals/test-gallery/history-walk/photo-01.jpg",
+      "coverAlt": "TEST placeholder photo 1 from Historic Sites Walk",
+      "description": "TEST album with placeholder photos. Replace before launch.",
+      "photos": [
+        {
+          "src": "assets/images/originals/test-gallery/history-walk/photo-01.jpg",
+          "alt": "TEST placeholder photo 1 from Historic Sites Walk",
+          "caption": "Sample caption for photo 1",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/history-walk/photo-02.jpg",
+          "alt": "TEST placeholder photo 2 from Historic Sites Walk",
+          "caption": "Sample caption for photo 2",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/history-walk/photo-03.jpg",
+          "alt": "TEST placeholder photo 3 from Historic Sites Walk",
+          "caption": "Sample caption for photo 3",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/history-walk/photo-04.jpg",
+          "alt": "TEST placeholder photo 4 from Historic Sites Walk",
+          "caption": "Sample caption for photo 4",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/history-walk/photo-05.jpg",
+          "alt": "TEST placeholder photo 5 from Historic Sites Walk",
+          "caption": "Sample caption for photo 5",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/history-walk/photo-06.jpg",
+          "alt": "TEST placeholder photo 6 from Historic Sites Walk",
+          "caption": "Sample caption for photo 6",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/history-walk/photo-07.jpg",
+          "alt": "TEST placeholder photo 7 from Historic Sites Walk",
+          "caption": "Sample caption for photo 7",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/history-walk/photo-08.jpg",
+          "alt": "TEST placeholder photo 8 from Historic Sites Walk",
+          "caption": "Sample caption for photo 8",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/history-walk/photo-09.jpg",
+          "alt": "TEST placeholder photo 9 from Historic Sites Walk",
+          "caption": "Sample caption for photo 9",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/history-walk/photo-10.jpg",
+          "alt": "TEST placeholder photo 10 from Historic Sites Walk",
+          "caption": "Sample caption for photo 10",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/history-walk/photo-11.jpg",
+          "alt": "TEST placeholder photo 11 from Historic Sites Walk",
+          "caption": "Sample caption for photo 11",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/history-walk/photo-12.jpg",
+          "alt": "TEST placeholder photo 12 from Historic Sites Walk",
+          "caption": "Sample caption for photo 12",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/history-walk/photo-13.jpg",
+          "alt": "TEST placeholder photo 13 from Historic Sites Walk",
+          "caption": "Sample caption for photo 13",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/history-walk/photo-14.jpg",
+          "alt": "TEST placeholder photo 14 from Historic Sites Walk",
+          "caption": "Sample caption for photo 14",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/history-walk/photo-15.jpg",
+          "alt": "TEST placeholder photo 15 from Historic Sites Walk",
+          "caption": "Sample caption for photo 15",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/history-walk/photo-16.jpg",
+          "alt": "TEST placeholder photo 16 from Historic Sites Walk",
+          "caption": "Sample caption for photo 16",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/history-walk/photo-17.jpg",
+          "alt": "TEST placeholder photo 17 from Historic Sites Walk",
+          "caption": "Sample caption for photo 17",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/history-walk/photo-18.jpg",
+          "alt": "TEST placeholder photo 18 from Historic Sites Walk",
+          "caption": "Sample caption for photo 18",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/history-walk/photo-19.jpg",
+          "alt": "TEST placeholder photo 19 from Historic Sites Walk",
+          "caption": "Sample caption for photo 19",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/history-walk/photo-20.jpg",
+          "alt": "TEST placeholder photo 20 from Historic Sites Walk",
+          "caption": "Sample caption for photo 20",
+          "credit": "Test data"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=PLACEHOLD09",
+          "title": "TEST video 9: Historic Sites Walk highlights"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PLACEHOLD10",
+          "title": "TEST video 10: Historic Sites Walk highlights"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PLACEHOLD11",
+          "title": "TEST video 11: Historic Sites Walk highlights"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PLACEHOLD12",
+          "title": "TEST video 12: Historic Sites Walk highlights"
+        }
+      ]
+    },
+    {
+      "id": "cars-and-coffee",
+      "title": "Cars & Coffee (TEST)",
+      "date": "2029-05-04",
+      "event": "cars-and-coffee",
+      "cover": "assets/images/originals/test-gallery/cars-and-coffee/photo-01.jpg",
+      "coverAlt": "TEST placeholder photo 1 from Cars & Coffee",
+      "description": "TEST album with placeholder photos. Replace before launch.",
+      "photos": [
+        {
+          "src": "assets/images/originals/test-gallery/cars-and-coffee/photo-01.jpg",
+          "alt": "TEST placeholder photo 1 from Cars & Coffee",
+          "caption": "Sample caption for photo 1",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/cars-and-coffee/photo-02.jpg",
+          "alt": "TEST placeholder photo 2 from Cars & Coffee",
+          "caption": "Sample caption for photo 2",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/cars-and-coffee/photo-03.jpg",
+          "alt": "TEST placeholder photo 3 from Cars & Coffee",
+          "caption": "Sample caption for photo 3",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/cars-and-coffee/photo-04.jpg",
+          "alt": "TEST placeholder photo 4 from Cars & Coffee",
+          "caption": "Sample caption for photo 4",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/cars-and-coffee/photo-05.jpg",
+          "alt": "TEST placeholder photo 5 from Cars & Coffee",
+          "caption": "Sample caption for photo 5",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/cars-and-coffee/photo-06.jpg",
+          "alt": "TEST placeholder photo 6 from Cars & Coffee",
+          "caption": "Sample caption for photo 6",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/cars-and-coffee/photo-07.jpg",
+          "alt": "TEST placeholder photo 7 from Cars & Coffee",
+          "caption": "Sample caption for photo 7",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/cars-and-coffee/photo-08.jpg",
+          "alt": "TEST placeholder photo 8 from Cars & Coffee",
+          "caption": "Sample caption for photo 8",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/cars-and-coffee/photo-09.jpg",
+          "alt": "TEST placeholder photo 9 from Cars & Coffee",
+          "caption": "Sample caption for photo 9",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/cars-and-coffee/photo-10.jpg",
+          "alt": "TEST placeholder photo 10 from Cars & Coffee",
+          "caption": "Sample caption for photo 10",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/cars-and-coffee/photo-11.jpg",
+          "alt": "TEST placeholder photo 11 from Cars & Coffee",
+          "caption": "Sample caption for photo 11",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/cars-and-coffee/photo-12.jpg",
+          "alt": "TEST placeholder photo 12 from Cars & Coffee",
+          "caption": "Sample caption for photo 12",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/cars-and-coffee/photo-13.jpg",
+          "alt": "TEST placeholder photo 13 from Cars & Coffee",
+          "caption": "Sample caption for photo 13",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/cars-and-coffee/photo-14.jpg",
+          "alt": "TEST placeholder photo 14 from Cars & Coffee",
+          "caption": "Sample caption for photo 14",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/cars-and-coffee/photo-15.jpg",
+          "alt": "TEST placeholder photo 15 from Cars & Coffee",
+          "caption": "Sample caption for photo 15",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/cars-and-coffee/photo-16.jpg",
+          "alt": "TEST placeholder photo 16 from Cars & Coffee",
+          "caption": "Sample caption for photo 16",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/cars-and-coffee/photo-17.jpg",
+          "alt": "TEST placeholder photo 17 from Cars & Coffee",
+          "caption": "Sample caption for photo 17",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/cars-and-coffee/photo-18.jpg",
+          "alt": "TEST placeholder photo 18 from Cars & Coffee",
+          "caption": "Sample caption for photo 18",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/cars-and-coffee/photo-19.jpg",
+          "alt": "TEST placeholder photo 19 from Cars & Coffee",
+          "caption": "Sample caption for photo 19",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/cars-and-coffee/photo-20.jpg",
+          "alt": "TEST placeholder photo 20 from Cars & Coffee",
+          "caption": "Sample caption for photo 20",
+          "credit": "Test data"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=PLACEHOLD13",
+          "title": "TEST video 13: Cars & Coffee highlights"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PLACEHOLD14",
+          "title": "TEST video 14: Cars & Coffee highlights"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PLACEHOLD15",
+          "title": "TEST video 15: Cars & Coffee highlights"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PLACEHOLD16",
+          "title": "TEST video 16: Cars & Coffee highlights"
+        }
+      ]
+    },
+    {
+      "id": "bedford-day-2029",
+      "title": "Bedford Day 2029 (TEST)",
+      "date": "2029-09-22",
+      "event": "bedford-day",
+      "cover": "assets/images/originals/test-gallery/bedford-day-2029/photo-01.jpg",
+      "coverAlt": "TEST placeholder photo 1 from Bedford Day 2029",
+      "description": "TEST album with placeholder photos. Replace before launch.",
+      "photos": [
+        {
+          "src": "assets/images/originals/test-gallery/bedford-day-2029/photo-01.jpg",
+          "alt": "TEST placeholder photo 1 from Bedford Day 2029",
+          "caption": "Sample caption for photo 1",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/bedford-day-2029/photo-02.jpg",
+          "alt": "TEST placeholder photo 2 from Bedford Day 2029",
+          "caption": "Sample caption for photo 2",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/bedford-day-2029/photo-03.jpg",
+          "alt": "TEST placeholder photo 3 from Bedford Day 2029",
+          "caption": "Sample caption for photo 3",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/bedford-day-2029/photo-04.jpg",
+          "alt": "TEST placeholder photo 4 from Bedford Day 2029",
+          "caption": "Sample caption for photo 4",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/bedford-day-2029/photo-05.jpg",
+          "alt": "TEST placeholder photo 5 from Bedford Day 2029",
+          "caption": "Sample caption for photo 5",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/bedford-day-2029/photo-06.jpg",
+          "alt": "TEST placeholder photo 6 from Bedford Day 2029",
+          "caption": "Sample caption for photo 6",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/bedford-day-2029/photo-07.jpg",
+          "alt": "TEST placeholder photo 7 from Bedford Day 2029",
+          "caption": "Sample caption for photo 7",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/bedford-day-2029/photo-08.jpg",
+          "alt": "TEST placeholder photo 8 from Bedford Day 2029",
+          "caption": "Sample caption for photo 8",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/bedford-day-2029/photo-09.jpg",
+          "alt": "TEST placeholder photo 9 from Bedford Day 2029",
+          "caption": "Sample caption for photo 9",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/bedford-day-2029/photo-10.jpg",
+          "alt": "TEST placeholder photo 10 from Bedford Day 2029",
+          "caption": "Sample caption for photo 10",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/bedford-day-2029/photo-11.jpg",
+          "alt": "TEST placeholder photo 11 from Bedford Day 2029",
+          "caption": "Sample caption for photo 11",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/bedford-day-2029/photo-12.jpg",
+          "alt": "TEST placeholder photo 12 from Bedford Day 2029",
+          "caption": "Sample caption for photo 12",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/bedford-day-2029/photo-13.jpg",
+          "alt": "TEST placeholder photo 13 from Bedford Day 2029",
+          "caption": "Sample caption for photo 13",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/bedford-day-2029/photo-14.jpg",
+          "alt": "TEST placeholder photo 14 from Bedford Day 2029",
+          "caption": "Sample caption for photo 14",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/bedford-day-2029/photo-15.jpg",
+          "alt": "TEST placeholder photo 15 from Bedford Day 2029",
+          "caption": "Sample caption for photo 15",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/bedford-day-2029/photo-16.jpg",
+          "alt": "TEST placeholder photo 16 from Bedford Day 2029",
+          "caption": "Sample caption for photo 16",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/bedford-day-2029/photo-17.jpg",
+          "alt": "TEST placeholder photo 17 from Bedford Day 2029",
+          "caption": "Sample caption for photo 17",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/bedford-day-2029/photo-18.jpg",
+          "alt": "TEST placeholder photo 18 from Bedford Day 2029",
+          "caption": "Sample caption for photo 18",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/bedford-day-2029/photo-19.jpg",
+          "alt": "TEST placeholder photo 19 from Bedford Day 2029",
+          "caption": "Sample caption for photo 19",
+          "credit": "Test data"
+        },
+        {
+          "src": "assets/images/originals/test-gallery/bedford-day-2029/photo-20.jpg",
+          "alt": "TEST placeholder photo 20 from Bedford Day 2029",
+          "caption": "Sample caption for photo 20",
+          "credit": "Test data"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=PLACEHOLD17",
+          "title": "TEST video 17: Bedford Day 2029 highlights"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PLACEHOLD18",
+          "title": "TEST video 18: Bedford Day 2029 highlights"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PLACEHOLD19",
+          "title": "TEST video 19: Bedford Day 2029 highlights"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PLACEHOLD20",
+          "title": "TEST video 20: Bedford Day 2029 highlights"
+        }
+      ]
+    }
+  ]
+}

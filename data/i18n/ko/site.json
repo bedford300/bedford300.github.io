@@ -1,0 +1,11 @@
+{
+  "_help": "Translation of selected text from data/site.json. Only the fields listed here are translated; everything else is shown in English. Keep the structure (and any \"id\") the same as the English file.",
+  "tagline": "매사추세츠주 베드퍼드 300주년을 기념합니다 · 1729–2029",
+  "mission": "Friends of Tricentennial은 자원봉사자가 운영하는 501(c)(3) 비영리 단체로, 무료 지역 행사와 마을 역사, 그리고 마을에 남길 기념 선물을 통해 이웃과 함께 베드퍼드 300주년을 기념합니다.",
+  "celebrationLabel": "2029 베드퍼드 데이: 300주년 기념 축제 (날짜 PLACEHOLDER)",
+  "heroFlag": {
+    "imageAlt": "베드퍼드 깃발: 진홍색 바탕에 구름 속에서 뻗어 나온 갑옷 입은 팔이 칼을 쥐고 있고, 금색 리본에 라틴어 표어 Vince aut Morire가 적혀 있습니다",
+    "caption": "베드퍼드 깃발, 1775년",
+    "linkLabel": "깃발 이야기 읽기"
+  }
+}

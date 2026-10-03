@@ -1,0 +1,22 @@
+{
+  "_help": "Translation of selected text from data/promotions.json. Only the fields listed here are translated; everything else is shown in English. Keep the structure (and any \"id\") the same as the English file.",
+  "easyWays": {
+    "title": "쉽게 참여하세요",
+    "items": [
+      "대부분의 행사는 무료이며 온 가족이 함께할 수 있습니다",
+      "대부분의 활동은 사전 등록이 필요 없습니다",
+      "좌석이 마련된 무장애 장소에서 열립니다",
+      "한 시간만 들러도, 하루 종일 머물러도 좋습니다"
+    ]
+  },
+  "merch": {
+    "title": "300주년 기념 티셔츠",
+    "description": "베드퍼드에 대한 자부심을 입어 보세요! 1729–2029 기념 티셔츠, 성인 및 어린이 사이즈가 있습니다. 수익금은 무료 행사 운영에 쓰입니다.",
+    "linkLabel": "티셔츠 주문하기"
+  },
+  "flags": {
+    "title": "마을의 깃발을 찾아보세요",
+    "description": "마을 곳곳의 300주년 깃발에는 QR 코드가 있습니다. 휴대전화 카메라로 스캔하면 이 웹사이트에서 다가오는 행사를 확인할 수 있습니다.",
+    "qrLabel": "Bedford 300 웹사이트로 연결되는 QR 코드"
+  }
+}

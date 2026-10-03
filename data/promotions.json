@@ -1,0 +1,25 @@
+{
+  "_help": "The 'Join the Fun' box on the Events page: easy ways to take part, merchandise, and the flag/QR code promotion. Change the text on the RIGHT side of each colon.",
+  "easyWays": {
+    "title": "Easy to Join",
+    "items": [
+      "Most events are free and family-friendly",
+      "No registration needed for most activities",
+      "Accessible venues with seating available",
+      "Come for an hour or stay all day"
+    ]
+  },
+  "merch": {
+    "title": "Tricentennial T-Shirts",
+    "description": "Wear your Bedford pride! Commemorative 1729–2029 T-shirts in adult and youth sizes. Proceeds support free events.",
+    "image": "assets/images/originals/merch/t-shirt.jpg",
+    "imageAlt": "PLACEHOLDER: Navy T-shirt with the Bedford 300 logo",
+    "linkLabel": "Order a T-shirt",
+    "url": "https://example.org/PLACEHOLDER-merch"
+  },
+  "flags": {
+    "title": "Look for Our Flags",
+    "description": "Tricentennial flags around town carry a QR code. Scan it with your phone camera to reach this website and see what's coming up.",
+    "qrLabel": "QR code linking to the Bedford 300 website"
+  }
+}

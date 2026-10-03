@@ -1,0 +1,22 @@
+{
+  "_help": "Translation of selected text from data/promotions.json. Only the fields listed here are translated; everything else is shown in English. Keep the structure (and any \"id\") the same as the English file.",
+  "easyWays": {
+    "title": "気軽に参加できます",
+    "items": [
+      "ほとんどのイベントは無料で、家族みんなで楽しめます",
+      "ほとんどの活動は事前登録不要です",
+      "バリアフリーの会場で、座席もご用意しています",
+      "1時間だけでも、一日中でも歓迎です"
+    ]
+  },
+  "merch": {
+    "title": "300周年記念Tシャツ",
+    "description": "ベッドフォードへの誇りを身にまとおう！1729–2029の記念Tシャツ、大人用・子ども用サイズがあります。売上は無料イベントの運営に充てられます。",
+    "linkLabel": "Tシャツを注文する"
+  },
+  "flags": {
+    "title": "町の旗を探してみよう",
+    "description": "町なかの300周年記念旗にはQRコードが付いています。スマートフォンのカメラで読み取ると、このウェブサイトで今後のイベントをご覧いただけます。",
+    "qrLabel": "Bedford 300のウェブサイトへのQRコード"
+  }
+}

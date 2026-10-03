@@ -1,0 +1,9 @@
+{
+  "_help": "The Town Gift section on the History page. Update 'raised' as donations come in (numbers only, no $ sign or commas). ALL VALUES BELOW ARE PLACEHOLDERS.",
+  "name": "PLACEHOLDER: The Tricentennial Town Gift",
+  "description": "PLACEHOLDER: Friends of Tricentennial is raising funds for a lasting gift to the Town of Bedford to mark its 300th anniversary. Details about the gift will be announced soon.",
+  "image": "assets/images/originals/gift/town-gift.jpg",
+  "imageAlt": "PLACEHOLDER: Artist's sketch of the Town Gift",
+  "goal": 50000,
+  "raised": 12500
+}

@@ -1,0 +1,83 @@
+{
+  "_help": "Questions for the Bedford history quiz. Each question: question text, a list of choices, answer = the NUMBER of the correct choice counting from 0 (first choice = 0, second = 1, ...), and a short explanation shown after answering. Visitors get up to 10 random questions per round. Keep verified = false until the Historical Society has checked it. ALL QUESTIONS BELOW ARE DRAFTS.",
+  "questionsPerRound": 10,
+  "questions": [
+    {
+      "question": "In what year was Bedford incorporated as a town?",
+      "choices": ["1692", "1729", "1776", "1801"],
+      "answer": 1,
+      "explanation": "Bedford was incorporated on September 23, 1729, which is why 2029 marks its 300th anniversary.",
+      "verified": false
+    },
+    {
+      "question": "Bedford was formed from parts of which two towns?",
+      "choices": ["Lexington and Burlington", "Concord and Billerica", "Carlisle and Lincoln", "Woburn and Bedford, NH"],
+      "answer": 1,
+      "explanation": "Bedford was carved out of parts of Concord and Billerica.",
+      "verified": false
+    },
+    {
+      "question": "Where is the historic Bedford Flag preserved today?",
+      "choices": ["The State House in Boston", "The Smithsonian", "The Bedford Free Public Library", "Fitch Tavern"],
+      "answer": 2,
+      "explanation": "The Bedford Flag is preserved at the Bedford Free Public Library.",
+      "verified": false
+    },
+    {
+      "question": "Where did Bedford's Minutemen gather on the morning of April 19, 1775?",
+      "choices": ["Fitch Tavern", "The Job Lane House", "Bedford Depot", "Two Brothers Rocks"],
+      "answer": 0,
+      "explanation": "Bedford's Minutemen gathered at Fitch Tavern before marching to Concord.",
+      "verified": false
+    },
+    {
+      "question": "Which Bedford captain was killed on April 19, 1775?",
+      "choices": ["Captain John Parker", "Captain Jonathan Wilson", "Captain Isaac Davis", "Captain Job Lane"],
+      "answer": 1,
+      "explanation": "Captain Jonathan Wilson of Bedford was killed during the fighting on April 19, 1775.",
+      "verified": false
+    },
+    {
+      "question": "Two Brothers Rocks are linked to which two colonial leaders?",
+      "choices": ["John Adams and Samuel Adams", "John Winthrop and Thomas Dudley", "Paul Revere and William Dawes", "John Hancock and Samuel Prescott"],
+      "answer": 1,
+      "explanation": "The rocks are said to mark the boundary between the lands of Governor John Winthrop and Thomas Dudley.",
+      "verified": false
+    },
+    {
+      "question": "Which river forms part of Bedford's western boundary?",
+      "choices": ["The Charles River", "The Merrimack River", "The Concord River", "The Mystic River"],
+      "answer": 2,
+      "explanation": "The Concord River runs along Bedford's western edge.",
+      "verified": false
+    },
+    {
+      "question": "Hanscom Field is named after whom?",
+      "choices": ["A Bedford selectman", "Aviator Laurence G. Hanscom", "A Revolutionary War general", "The town's first minister"],
+      "answer": 1,
+      "explanation": "The airfield was named for Laurence G. Hanscom, a pilot and journalist.",
+      "verified": false
+    },
+    {
+      "question": "The Bedford VA hospital is named for which person?",
+      "choices": ["Clara Barton", "Edith Nourse Rogers", "Abigail Adams", "Eleanor Roosevelt"],
+      "answer": 1,
+      "explanation": "It is the Edith Nourse Rogers Memorial Veterans Hospital, named for the Massachusetts congresswoman.",
+      "verified": false
+    },
+    {
+      "question": "Which popular bike trail ends in Bedford?",
+      "choices": ["The Minuteman Bikeway", "The Cape Cod Rail Trail", "The Nashua River Rail Trail", "The Bruce Freeman Rail Trail"],
+      "answer": 0,
+      "explanation": "The Minuteman Bikeway runs from Cambridge to its end at Bedford Depot.",
+      "verified": false
+    },
+    {
+      "question": "What kind of museum is the Job Lane House?",
+      "choices": ["A railroad museum", "A colonial-era farmhouse museum", "A military aviation museum", "An art museum"],
+      "answer": 1,
+      "explanation": "The Job Lane House is a historic farmhouse from the early 1700s, preserved as a museum.",
+      "verified": false
+    }
+  ]
+}

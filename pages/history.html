@@ -1,0 +1,44 @@
+<!-- History page layout. Content: data/history.json, quiz.json, sites.json, town-gift.json -->
+<div class="page-header">
+    <div class="container">
+        <h1 data-i18n="page.history"></h1>
+        <nav class="page-nav" data-i18n-aria-label="onThisPage">
+            <a href="#history/facts" data-i18n="history.factsTitle"></a>
+            <a href="#history/quiz" data-i18n="history.quizTitle"></a>
+            <a href="#history/map" data-i18n="history.mapTitle"></a>
+            <a href="#history/town-gift" data-i18n="history.giftTitle"></a>
+        </nav>
+    </div>
+</div>
+
+<section class="section container" id="facts" aria-labelledby="facts-title">
+    <h2 id="facts-title" class="section-title" data-i18n="history.factsTitle"></h2>
+    <div id="facts-body"></div>
+</section>
+
+<section class="section section-alt" id="quiz" aria-labelledby="quiz-title">
+    <div class="container container-narrow">
+        <h2 id="quiz-title" class="section-title" data-i18n="history.quizTitle"></h2>
+        <p data-i18n="history.quizIntro"></p>
+        <div id="quiz-body"></div>
+    </div>
+</section>
+
+<section class="section container" id="map" aria-labelledby="map-title">
+    <h2 id="map-title" class="section-title" data-i18n="history.mapTitle"></h2>
+    <p data-i18n="history.mapIntro"></p>
+    <div class="map-layout">
+        <div id="map-canvas" class="map-canvas"><p class="map-placeholder" data-i18n="history.mapLoading"></p></div>
+        <div class="map-sites">
+            <h3 class="visually-hidden" data-i18n="history.siteList"></h3>
+            <ol id="site-list" class="site-list"></ol>
+        </div>
+    </div>
+</section>
+
+<section class="section section-alt" id="town-gift" aria-labelledby="gift-title">
+    <div class="container">
+        <h2 id="gift-title" class="section-title" data-i18n="history.giftTitle"></h2>
+        <div id="gift-body"></div>
+    </div>
+</section>

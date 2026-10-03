@@ -1,0 +1,60 @@
+<!-- Home page layout. Content comes from data/site.json, events.json and gallery.json -->
+<section class="hero" aria-labelledby="home-title">
+    <div class="hero-media" id="hero-media"></div>
+    <div class="hero-content container">
+        <div class="hero-text">
+            <p class="hero-kicker">1729 · 2029</p>
+            <h1 id="home-title" data-site="shortName"></h1>
+            <p class="hero-tagline" data-site="tagline"></p>
+            <div id="countdown" class="countdown" hidden></div>
+            <div class="hero-actions">
+                <a class="btn btn-gold" data-site-href="donateUrl" target="_blank" rel="noopener"><span data-i18n="btn.donate"></span></a>
+                <a class="btn btn-outline-light" data-site-href="volunteerFormUrl" target="_blank" rel="noopener"><span data-i18n="btn.volunteer"></span></a>
+            </div>
+        </div>
+        <div class="hero-flag-slot" id="hero-flag"></div>
+    </div>
+</section>
+
+<section class="section container" id="spotlight" aria-labelledby="spotlight-title">
+    <h2 id="spotlight-title" class="section-title" data-i18n="home.spotlight"></h2>
+    <div id="spotlight-body" aria-busy="true"></div>
+</section>
+
+<section class="section section-alt" id="involved" aria-labelledby="involved-title">
+    <div class="container">
+        <h2 id="involved-title" class="section-title" data-i18n="home.involved"></h2>
+        <p class="lead" data-site="mission"></p>
+        <div class="card-grid card-grid-3">
+            <article class="cta-card">
+                <h3 data-i18n="btn.volunteer"></h3>
+                <p data-i18n="home.volunteerText"></p>
+                <a class="btn btn-primary" data-site-href="volunteerFormUrl" target="_blank" rel="noopener"><span data-i18n="btn.volunteer"></span></a>
+            </article>
+            <article class="cta-card">
+                <h3 data-i18n="btn.donate"></h3>
+                <p data-i18n="home.donateText"></p>
+                <a class="btn btn-primary" data-site-href="donateUrl" target="_blank" rel="noopener"><span data-i18n="btn.donate"></span></a>
+            </article>
+            <article class="cta-card">
+                <h3 data-i18n="home.followTitle"></h3>
+                <p data-i18n="home.followText"></p>
+                <ul class="social-links social-links-dark" id="home-social"></ul>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="section container" id="poll" aria-labelledby="poll-title">
+    <h2 id="poll-title" class="section-title" data-i18n="home.pollTitle"></h2>
+    <p data-i18n="home.pollText"></p>
+    <div id="poll-frame" class="poll-frame"></div>
+</section>
+
+<section class="section section-alt" id="media" aria-labelledby="media-title">
+    <div class="container">
+        <h2 id="media-title" class="section-title" data-i18n="home.mediaTitle"></h2>
+        <div id="home-media" class="home-media"></div>
+        <p><a class="btn btn-secondary" href="#gallery" data-i18n="home.mediaLink"></a></p>
+    </div>
+</section>

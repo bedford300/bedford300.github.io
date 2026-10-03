@@ -1,0 +1,51 @@
+{
+  "_help": "Community partners (shown prominently at the top of the Support Us page) and sponsors (shown in groups below). Each entry: name, url (leave \"\" if none), optional logo (path to an image in assets/images/originals/), description. type for sponsors must be one of the group ids in 'groups'. Set showContact to true ONLY after the contact person has agreed to be named publicly.",
+  "partners": [
+    {
+      "name": "Bedford Cultural Council",
+      "url": "https://massculturalcouncil.org/local-council/bedford/",
+      "description": "Supports community-based projects in the arts, humanities, and sciences in Bedford.",
+      "logo": ""
+    },
+    {
+      "name": "Bedford Historical Society",
+      "url": "https://www.bedfordmahistory.org/",
+      "description": "Preserving and sharing Bedford's history. Our partner for historical facts, sites, and the history quiz.",
+      "logo": "",
+      "contact": "Sharon McDonald",
+      "showContact": false
+    },
+    {
+      "name": "Job Lane Farm",
+      "url": "",
+      "description": "PLACEHOLDER: Historic farmhouse museum and partner. Website link to be provided.",
+      "logo": ""
+    }
+  ],
+  "groups": [
+    { "id": "business", "title": "Business Sponsors" },
+    { "id": "organization", "title": "Organizations" },
+    { "id": "host", "title": "Event Hosts" },
+    { "id": "community", "title": "Community Partners" }
+  ],
+  "sponsors": [
+    { "name": "PLACEHOLDER Business Sponsor A", "type": "business", "url": "", "logo": "" },
+    { "name": "PLACEHOLDER Business Sponsor B", "type": "business", "url": "", "logo": "" },
+    { "name": "PLACEHOLDER Business Sponsor C", "type": "business", "url": "", "logo": "" },
+    { "name": "PLACEHOLDER Organization A", "type": "organization", "url": "", "logo": "" },
+    { "name": "PLACEHOLDER Organization B", "type": "organization", "url": "", "logo": "" },
+    { "name": "PLACEHOLDER Event Host A", "type": "host", "url": "", "logo": "" },
+    { "name": "PLACEHOLDER Community Group A", "type": "community", "url": "", "logo": "" }
+  ],
+  "volunteer": {
+    "intro": "Volunteers make every event happen. No experience needed. Pick what fits your schedule.",
+    "roles": [
+      "Event setup and cleanup",
+      "Welcome and information tables",
+      "Photography and social media",
+      "Kids' activities and games",
+      "Fundraising and sponsor outreach",
+      "History research with the Historical Society"
+    ]
+  }
+}

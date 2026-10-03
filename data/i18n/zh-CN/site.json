@@ -1,0 +1,11 @@
+{
+  "_help": "Translation of selected text from data/site.json. Only the fields listed here are translated; everything else is shown in English. Keep the structure (and any \"id\") the same as the English file.",
+  "tagline": "庆祝马萨诸塞州贝德福德建镇三百周年 · 1729–2029",
+  "mission": "Friends of Tricentennial 是一个由志愿者运营的 501(c)(3) 非营利组织，通过免费社区活动、本地历史和一份献给小镇的长久礼物，凝聚邻里，共同庆祝贝德福德建镇三百周年。",
+  "celebrationLabel": "2029 年贝德福德日：三百周年庆典（日期 PLACEHOLDER）",
+  "heroFlag": {
+    "imageAlt": "贝德福德旗：深红色旗面上，一只身披盔甲的手臂从云中伸出、紧握利剑，金色绶带上写着拉丁文格言 Vince aut Morire",
+    "caption": "贝德福德旗，1775 年",
+    "linkLabel": "了解它的故事"
+  }
+}

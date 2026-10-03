@@ -1,0 +1,7 @@
+{
+  "_help": "Translation of selected text from data/events.json. Only the fields listed here are translated; everything else is shown in English. Keep the structure (and any \"id\") the same as the English file.",
+  "notice": {
+    "title": "暫定日程",
+    "text": "這是我們為三百週年慶祝年擬定的工作計畫（規劃表 Rev B，2026 年 10 月）。隨著籌備進展，活動、日期與主辦單位都可能變動；標示「提議中」的活動仍在討論決定。歡迎隨時回來查看最新消息！"
+  }
+}

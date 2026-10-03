@@ -1,0 +1,22 @@
+{
+  "_help": "Translation of selected text from data/promotions.json. Only the fields listed here are translated; everything else is shown in English. Keep the structure (and any \"id\") the same as the English file.",
+  "easyWays": {
+    "title": "Facile de participer",
+    "items": [
+      "La plupart des événements sont gratuits et adaptés aux familles",
+      "Aucune inscription nécessaire pour la plupart des activités",
+      "Lieux accessibles avec places assises",
+      "Venez pour une heure ou restez toute la journée"
+    ]
+  },
+  "merch": {
+    "title": "T-shirts du tricentenaire",
+    "description": "Affichez votre fierté pour Bedford ! T-shirts commémoratifs 1729–2029 en tailles adultes et enfants. Les recettes soutiennent les événements gratuits.",
+    "linkLabel": "Commander un T-shirt"
+  },
+  "flags": {
+    "title": "Repérez nos drapeaux",
+    "description": "Les drapeaux du tricentenaire installés en ville portent un code QR. Scannez-le avec l’appareil photo de votre téléphone pour accéder à ce site et découvrir les prochains événements.",
+    "qrLabel": "Code QR menant au site web de Bedford 300"
+  }
+}

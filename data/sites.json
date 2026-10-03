@@ -1,0 +1,82 @@
+{
+  "_help": "Historic sites shown on the History page map. Each site: id (short, no spaces), name, year, description, lat and lng (map coordinates; right-click a spot in Google Maps to copy them), optional image + imageAlt, address (used for the Directions link). Keep verified = false until the coordinates and details have been checked. ALL COORDINATES BELOW ARE APPROXIMATE PLACEHOLDERS.",
+  "center": {
+    "lat": 42.4906,
+    "lng": -71.276,
+    "zoom": 13
+  },
+  "sites": [
+    {
+      "id": "old-burying-ground",
+      "name": "Old Burying Ground",
+      "year": "c. 1729",
+      "description": "Bedford's oldest cemetery, resting place of early settlers and Revolutionary War soldiers.",
+      "lat": 42.4912,
+      "lng": -71.2783,
+      "address": "Springs Road, Bedford, MA",
+      "verified": false
+    },
+    {
+      "id": "fitch-tavern",
+      "name": "Fitch Tavern",
+      "year": "1775",
+      "description": "Where Bedford's Minutemen gathered on the morning of April 19, 1775.",
+      "lat": 42.4907,
+      "lng": -71.2772,
+      "address": "The Great Road, Bedford, MA",
+      "verified": false
+    },
+    {
+      "id": "job-lane-house",
+      "name": "Job Lane House",
+      "year": "Early 1700s",
+      "description": "A colonial farmhouse museum showing three centuries of Bedford life.",
+      "lat": 42.504,
+      "lng": -71.2905,
+      "address": "295 North Road, Bedford, MA",
+      "verified": false
+    },
+    {
+      "id": "bedford-library",
+      "name": "Bedford Free Public Library (Bedford Flag)",
+      "year": "1775 flag",
+      "description": "Home of the original Bedford Flag, carried by Bedford's Minutemen in 1775.",
+      "lat": 42.489,
+      "lng": -71.2795,
+      "address": "7 Mudge Way, Bedford, MA",
+      "verified": false,
+      "image": "assets/images/originals/history/bedford-flag.png",
+      "imageAlt": "The Bedford Flag"
+    },
+    {
+      "id": "bedford-depot",
+      "name": "Bedford Depot",
+      "year": "1870s",
+      "description": "The historic railroad depot, now the end of the Minuteman Bikeway.",
+      "lat": 42.485,
+      "lng": -71.277,
+      "address": "80 Loomis Street, Bedford, MA",
+      "verified": false
+    },
+    {
+      "id": "two-brothers-rocks",
+      "name": "Two Brothers Rocks",
+      "year": "1638",
+      "description": "Boulders near the Concord River said to mark the boundary between the Winthrop and Dudley farms.",
+      "lat": 42.51,
+      "lng": -71.306,
+      "address": "Two Brothers Rocks, Bedford, MA",
+      "verified": false
+    },
+    {
+      "id": "va-hospital",
+      "name": "Edith Nourse Rogers Memorial Veterans Hospital",
+      "year": "1928",
+      "description": "Bedford's VA hospital, caring for veterans for nearly a century.",
+      "lat": 42.505,
+      "lng": -71.265,
+      "address": "200 Springs Road, Bedford, MA",
+      "verified": false
+    }
+  ]
+}

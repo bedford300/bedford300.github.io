@@ -1,0 +1,289 @@
+{
+  "_help": "Donor recognition list. IMPORTANT: never put dollar amounts in this file. Anyone can download it. Only record each donor's tier. Each donor: name, tier (one of the tier ids: platinum, gold, silver, buccaneer), optional type (\"individual\" or \"business\"), optional anonymous: true (shown as 'Anonymous Friend'), optional inHonorOf. Tier names, thresholds and order can be changed in 'tiers'. THE DONORS BELOW ARE SAMPLE DATA.",
+  "_test": true,
+  "tiers": [
+    {
+      "id": "platinum",
+      "name": "Platinum",
+      "threshold": "$X+ (PLACEHOLDER)",
+      "color": "#5b6b7a",
+      "order": 1
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "threshold": "$X \u2013 $Y (PLACEHOLDER)",
+      "color": "#a8832e",
+      "order": 2
+    },
+    {
+      "id": "silver",
+      "name": "Silver",
+      "threshold": "$X \u2013 $Y (PLACEHOLDER)",
+      "color": "#7d8790",
+      "order": 3
+    },
+    {
+      "id": "buccaneer",
+      "name": "Bedford Buccaneer",
+      "threshold": "Up to $X (PLACEHOLDER)",
+      "color": "#7a1e26",
+      "order": 4
+    }
+  ],
+  "donors": [
+    {
+      "name": "Sample Donor 01",
+      "tier": "platinum"
+    },
+    {
+      "name": "Sample Donor 02",
+      "tier": "platinum"
+    },
+    {
+      "name": "Sample Donor 03",
+      "tier": "platinum"
+    },
+    {
+      "name": "Sample Business 04",
+      "tier": "gold",
+      "type": "business"
+    },
+    {
+      "name": "Sample Donor 05",
+      "tier": "gold"
+    },
+    {
+      "name": "Sample Donor 06",
+      "tier": "gold"
+    },
+    {
+      "name": "Sample Donor 07",
+      "tier": "gold"
+    },
+    {
+      "name": "Sample Business 08",
+      "tier": "gold",
+      "type": "business"
+    },
+    {
+      "name": "Sample Donor 09",
+      "tier": "gold",
+      "inHonorOf": "Sample Honoree 09"
+    },
+    {
+      "name": "Sample Donor 10",
+      "tier": "gold"
+    },
+    {
+      "name": "Sample Donor 11",
+      "tier": "gold",
+      "anonymous": true
+    },
+    {
+      "name": "Sample Business 12",
+      "tier": "silver",
+      "type": "business"
+    },
+    {
+      "name": "Sample Donor 13",
+      "tier": "silver"
+    },
+    {
+      "name": "Sample Donor 14",
+      "tier": "silver"
+    },
+    {
+      "name": "Sample Donor 15",
+      "tier": "silver"
+    },
+    {
+      "name": "Sample Business 16",
+      "tier": "silver",
+      "type": "business"
+    },
+    {
+      "name": "Sample Donor 17",
+      "tier": "silver"
+    },
+    {
+      "name": "Sample Donor 18",
+      "tier": "silver",
+      "inHonorOf": "Sample Honoree 18"
+    },
+    {
+      "name": "Sample Donor 19",
+      "tier": "silver"
+    },
+    {
+      "name": "Sample Business 20",
+      "tier": "silver",
+      "type": "business"
+    },
+    {
+      "name": "Sample Donor 21",
+      "tier": "silver"
+    },
+    {
+      "name": "Sample Donor 22",
+      "tier": "silver",
+      "anonymous": true
+    },
+    {
+      "name": "Sample Donor 23",
+      "tier": "silver"
+    },
+    {
+      "name": "Sample Business 24",
+      "tier": "silver",
+      "type": "business"
+    },
+    {
+      "name": "Sample Donor 25",
+      "tier": "silver"
+    },
+    {
+      "name": "Sample Donor 26",
+      "tier": "buccaneer"
+    },
+    {
+      "name": "Sample Donor 27",
+      "tier": "buccaneer",
+      "inHonorOf": "Sample Honoree 27"
+    },
+    {
+      "name": "Sample Business 28",
+      "tier": "buccaneer",
+      "type": "business"
+    },
+    {
+      "name": "Sample Donor 29",
+      "tier": "buccaneer"
+    },
+    {
+      "name": "Sample Donor 30",
+      "tier": "buccaneer"
+    },
+    {
+      "name": "Sample Donor 31",
+      "tier": "buccaneer"
+    },
+    {
+      "name": "Sample Business 32",
+      "tier": "buccaneer",
+      "type": "business"
+    },
+    {
+      "name": "Sample Donor 33",
+      "tier": "buccaneer",
+      "anonymous": true
+    },
+    {
+      "name": "Sample Donor 34",
+      "tier": "buccaneer"
+    },
+    {
+      "name": "Sample Donor 35",
+      "tier": "buccaneer"
+    },
+    {
+      "name": "Sample Business 36",
+      "tier": "buccaneer",
+      "type": "business",
+      "inHonorOf": "Sample Honoree 36"
+    },
+    {
+      "name": "Sample Donor 37",
+      "tier": "buccaneer"
+    },
+    {
+      "name": "Sample Donor 38",
+      "tier": "buccaneer"
+    },
+    {
+      "name": "Sample Donor 39",
+      "tier": "buccaneer"
+    },
+    {
+      "name": "Sample Business 40",
+      "tier": "buccaneer",
+      "type": "business"
+    },
+    {
+      "name": "Sample Donor 41",
+      "tier": "buccaneer"
+    },
+    {
+      "name": "Sample Donor 42",
+      "tier": "buccaneer"
+    },
+    {
+      "name": "Sample Donor 43",
+      "tier": "buccaneer"
+    },
+    {
+      "name": "Sample Business 44",
+      "tier": "buccaneer",
+      "type": "business",
+      "anonymous": true
+    },
+    {
+      "name": "Sample Donor 45",
+      "tier": "buccaneer",
+      "inHonorOf": "Sample Honoree 45"
+    },
+    {
+      "name": "Sample Donor 46",
+      "tier": "buccaneer"
+    },
+    {
+      "name": "Sample Donor 47",
+      "tier": "buccaneer"
+    },
+    {
+      "name": "Sample Business 48",
+      "tier": "buccaneer",
+      "type": "business"
+    },
+    {
+      "name": "Sample Donor 49",
+      "tier": "buccaneer"
+    },
+    {
+      "name": "Sample Donor 50",
+      "tier": "buccaneer"
+    },
+    {
+      "name": "Sample Donor 51",
+      "tier": "buccaneer"
+    },
+    {
+      "name": "Sample Business 52",
+      "tier": "buccaneer",
+      "type": "business"
+    },
+    {
+      "name": "Sample Donor 53",
+      "tier": "buccaneer"
+    },
+    {
+      "name": "Sample Donor 54",
+      "tier": "buccaneer",
+      "inHonorOf": "Sample Honoree 54"
+    },
+    {
+      "name": "Sample Donor 55",
+      "tier": "buccaneer",
+      "anonymous": true
+    },
+    {
+      "name": "Sample Business 56",
+      "tier": "buccaneer",
+      "type": "business"
+    },
+    {
+      "name": "Sample Donor 57",
+      "tier": "buccaneer"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "_help": "Translation of selected text from data/promotions.json. Only the fields listed here are translated; everything else is shown in English. Keep the structure (and any \"id\") the same as the English file.",
+  "easyWays": {
+    "title": "輕鬆參與",
+    "items": [
+      "大多數活動免費，適合全家參加",
+      "大多數活動無需報名",
+      "場地無障礙，並提供座位",
+      "來玩一小時或待上一整天都可以"
+    ]
+  },
+  "merch": {
+    "title": "三百週年紀念 T 恤",
+    "description": "穿出您對貝德福德的驕傲！1729–2029 紀念 T 恤，提供成人與兒童尺寸。所得收入用於支持免費活動。",
+    "linkLabel": "訂購 T 恤"
+  },
+  "flags": {
+    "title": "留意我們的旗幟",
+    "description": "鎮上的三百週年旗幟印有 QR 碼。用手機相機掃描即可造訪本網站，了解近期活動。",
+    "qrLabel": "連結到 Bedford 300 網站的 QR 碼"
+  }
+}

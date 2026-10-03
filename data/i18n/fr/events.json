@@ -1,0 +1,7 @@
+{
+  "_help": "Translation of selected text from data/events.json. Only the fields listed here are translated; everything else is shown in English. Keep the structure (and any \"id\") the same as the English file.",
+  "notice": {
+    "title": "Calendrier provisoire",
+    "text": "Voici notre plan de travail pour l’année du tricentenaire (feuille de planification Rev B, octobre 2026). Les événements, les dates et les organisateurs changeront au fil de la planification, et les événements marqués « Proposé » sont encore à l’étude. Revenez régulièrement pour les mises à jour !"
+  }
+}

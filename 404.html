@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page not found · Bedford 300</title>
+    <meta name="robots" content="noindex">
+    <script>
+        // GitHub Pages shows this page for unknown addresses: send visitors to the home page.
+        var base = location.pathname.split('/').filter(Boolean)[0];
+        var isProjectSite = location.hostname.endsWith('github.io') && base && base.indexOf('.') === -1;
+        location.replace((isProjectSite ? '/' + base + '/' : '/') + '#home');
+    </script>
+</head>
+<body>
+    <p>Page not found. <a href="./#home">Go to the Bedford 300 home page</a>.</p>
+</body>
+</html>

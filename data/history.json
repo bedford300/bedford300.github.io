@@ -1,0 +1,98 @@
+{
+  "_help": "Historical facts shown on the History page, in date order. Each fact: id (short name with no spaces, used in links like #history/bedford-flag), year, title, text, optional image + imageAlt, source (where the fact comes from), and verified. Keep verified = false until the Bedford Historical Society has checked the fact, then change it to true. ALL FACTS BELOW ARE DRAFTS. Optional: imageFit = \"contain\" shows the whole picture (good for flags and documents) instead of cropping it; imageCredit = who made the picture.",
+  "intro": "Bedford's story stretches from colonial farmland to a modern town that is home to Hanscom Air Force Base and the Bedford VA. Here are some highlights from its first 300 years.",
+  "facts": [
+    {
+      "id": "two-brothers-rocks",
+      "year": "1638",
+      "title": "Two Brothers Rocks",
+      "text": "Governor John Winthrop and Deputy Governor Thomas Dudley divided land along the Concord River. Two boulders near the river, later called the Two Brothers Rocks, are said to mark the boundary between their farms.",
+      "image": "assets/images/originals/history/two-brothers.jpg",
+      "imageAlt": "PLACEHOLDER: Two large boulders near the Concord River",
+      "source": "DRAFT – to be verified with the Bedford Historical Society",
+      "verified": false
+    },
+    {
+      "id": "the-job-lane-house",
+      "year": "Early 1700s",
+      "title": "The Job Lane House",
+      "text": "The Job Lane House, a farmhouse built in the early 1700s, survives today as a museum that shows how Bedford families lived across three centuries.",
+      "image": "assets/images/originals/history/job-lane.jpg",
+      "imageAlt": "PLACEHOLDER: The Job Lane House, a colonial farmhouse",
+      "source": "DRAFT – to be verified with the Bedford Historical Society",
+      "verified": false
+    },
+    {
+      "id": "bedford-is-incorporated",
+      "year": "1729",
+      "title": "Bedford Is Incorporated",
+      "text": "On September 23, 1729, Bedford was incorporated as a town, formed from parts of Concord and Billerica so that residents could have a church and meetinghouse closer to home.",
+      "image": "assets/images/originals/history/incorporation.jpg",
+      "imageAlt": "PLACEHOLDER: Historic document",
+      "source": "DRAFT – to be verified with the Bedford Historical Society",
+      "verified": false
+    },
+    {
+      "id": "the-old-burying-ground",
+      "year": "1729",
+      "title": "The Old Burying Ground",
+      "text": "Bedford's oldest cemetery holds the graves of many early settlers and Revolutionary War soldiers, with slate headstones dating to the town's first decades.",
+      "image": "assets/images/originals/history/burying-ground.jpg",
+      "imageAlt": "PLACEHOLDER: Old slate headstones",
+      "source": "DRAFT – to be verified with the Bedford Historical Society",
+      "verified": false
+    },
+    {
+      "id": "bedford-minutemen-march-to-concord",
+      "year": "1775",
+      "title": "Bedford Minutemen March to Concord",
+      "text": "On April 19, 1775, Bedford's Minutemen gathered at Fitch Tavern before marching to Concord. Captain Jonathan Wilson was killed later that day in the fighting along the road back toward Boston.",
+      "image": "assets/images/originals/history/april-19.jpg",
+      "imageAlt": "PLACEHOLDER: Reenactors dressed as Minutemen",
+      "source": "DRAFT – to be verified with the Bedford Historical Society",
+      "verified": false
+    },
+    {
+      "id": "bedford-flag",
+      "year": "1775",
+      "title": "The Bedford Flag",
+      "text": "The Bedford Flag, carried by Bedford's Minutemen in 1775, is believed to be one of the oldest surviving flags in the United States. Its Latin motto, Vince aut Morire, means \"Conquer or Die.\" The original is preserved at the Bedford Free Public Library.",
+      "image": "assets/images/originals/history/bedford-flag.png",
+      "imageAlt": "The Bedford Flag: a crimson banner showing an armored arm reaching out of a cloud and gripping a sword, with a gold ribbon bearing the Latin motto Vince aut Morire",
+      "source": "DRAFT – to be verified with the Bedford Historical Society",
+      "verified": false,
+      "imageFit": "contain",
+      "imageCredit": "Illustration of the Bedford Flag by HoosierMan1816, Wikimedia Commons (public domain)"
+    },
+    {
+      "id": "the-railroad-arrives",
+      "year": "1870s",
+      "title": "The Railroad Arrives",
+      "text": "Railroad service connected Bedford to Boston and nearby towns. The restored Bedford Depot area is now a gateway to the Minuteman Bikeway.",
+      "image": "assets/images/originals/history/depot.jpg",
+      "imageAlt": "PLACEHOLDER: The historic Bedford railroad depot",
+      "source": "DRAFT – to be verified with the Bedford Historical Society",
+      "verified": false
+    },
+    {
+      "id": "the-bedford-va-hospital-opens",
+      "year": "1928",
+      "title": "The Bedford VA Hospital Opens",
+      "text": "A veterans hospital opened in Bedford, beginning a long tradition of caring for those who served. Today it is the Edith Nourse Rogers Memorial Veterans Hospital.",
+      "image": "assets/images/originals/history/va-hospital.jpg",
+      "imageAlt": "PLACEHOLDER: Brick buildings of the Bedford VA campus",
+      "source": "DRAFT – to be verified with the Bedford Historical Society",
+      "verified": false
+    },
+    {
+      "id": "hanscom-field",
+      "year": "1940s",
+      "title": "Hanscom Field",
+      "text": "An airfield opened on the Bedford border in the early 1940s and was later named for aviator Laurence G. Hanscom. Hanscom Air Force Base has been part of the community ever since.",
+      "image": "assets/images/originals/history/hanscom.jpg",
+      "imageAlt": "PLACEHOLDER: Aircraft at Hanscom Field",
+      "source": "DRAFT – to be verified with the Bedford Historical Society",
+      "verified": false
+    }
+  ]
+}

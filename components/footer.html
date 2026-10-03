@@ -1,0 +1,51 @@
+<!-- Footer. Social links, email and EIN come from data/site.json -->
+<svg class="icon-sprite" aria-hidden="true" focusable="false">
+    <symbol id="icon-instagram" viewBox="0 0 24 24">
+        <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+        <circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/>
+        <circle cx="17.4" cy="6.6" r="1.3" fill="currentColor"/>
+    </symbol>
+    <symbol id="icon-facebook" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8z"/>
+    </symbol>
+    <symbol id="icon-x" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M3.5 3h5.2l4.1 5.6L17.8 3h2.6l-6.4 7.3L21 21h-5.2l-4.5-6.1L5.9 21H3.3l6.8-7.8z"/>
+    </symbol>
+    <symbol id="icon-tiktok" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" d="M14 3v12.2a3.8 3.8 0 1 1-3.8-3.8"/>
+        <path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" d="M14 3.2c.5 2.6 2.4 4.4 5.2 4.7"/>
+    </symbol>
+</svg>
+
+<div class="footer-inner container">
+    <div class="footer-col footer-about">
+        <p class="footer-brand"><img class="footer-logo" src="assets/images/Bedford-Tricentennial-Logo-top.webp" alt="" width="342" height="323" loading="lazy"> <span data-site="orgName"></span></p>
+        <p data-site="tagline"></p>
+        <p id="footer-nonprofit"></p>
+    </div>
+
+    <nav class="footer-col" data-i18n-aria-label="footer.quickLinks">
+        <h2 class="footer-heading" data-i18n="footer.quickLinks"></h2>
+        <ul class="footer-links">
+            <li><a href="#events" data-i18n="nav.events"></a></li>
+            <li><a href="#history" data-i18n="nav.history"></a></li>
+            <li><a href="#gallery" data-i18n="nav.gallery"></a></li>
+            <li><a href="#support" data-i18n="nav.support"></a></li>
+            <li><a href="#donors" data-i18n="nav.donors"></a></li>
+            <li><a href="#legal" data-i18n="nav.legal"></a></li>
+        </ul>
+    </nav>
+
+    <div class="footer-col">
+        <h2 class="footer-heading" data-i18n="footer.contact"></h2>
+        <p><a id="footer-email" href="#"></a></p>
+        <p data-site="mailingAddress"></p>
+        <p><a class="btn btn-donate" data-site-href="donateUrl" target="_blank" rel="noopener"><span data-i18n="btn.donate"></span></a></p>
+    </div>
+
+    <div class="footer-col">
+        <h2 class="footer-heading" data-i18n="footer.follow"></h2>
+        <ul id="social-links" class="social-links"></ul>
+    </div>
+</div>
+<p class="footer-copy container">© <span id="footer-year"></span> <span data-site="orgName"></span></p>
